@@ -1,0 +1,39 @@
+
+.hero {
+  width: 100%;
+  height: 500px; /* Adjust height as needed */
+  overflow: hidden; /* Hide overflowing content */
+  position: relative; /* Ensure relative positioning for child elements */
+}
+
+.slider-images {
+  display: flex; /* Display images in a row */
+  transition: transform 0.5s ease; /* Smooth transition effect */
+}
+
+.slider-images img {
+  width: 100%; /* Ensure images fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+  color: green;
+  background-color: white;
+}
+
+.next {
+  right: 10px;
+  color: green;
+}

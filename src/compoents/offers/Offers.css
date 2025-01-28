@@ -1,0 +1,49 @@
+/* Offers.css */
+
+/* Offers.css */
+
+.ofers {
+  width: 100%; /* Set the width of the banner to 100% */
+  height: 450px; /* Set the height of the banner to your desired value */
+  overflow: hidden; /* Hide any content that overflows the banner */
+  position: relative; /* Positioning context for absolute positioning */
+    background: linear-gradient(180deg, hsl(296, 100%, 94%), #e1ffea22 60%);
+  }
+  
+  .ofers_left {
+    flex: 1;
+    text-align: left;
+    flex-direction: column;
+    line-height: 1.1;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .ofers_left h1 {
+    font-size: 36px; /* Increase font size for h1 */
+    color:green;
+    margin-bottom: 10px;
+  }
+  
+  .ofers_left p {
+    font-size: 24px; /* Adjust the font size for paragraphs */
+    color: green;
+    margin-bottom: 20px;
+  }
+  
+  .ofers_left button {
+    padding: 15px 30px; /* Adjust padding as needed */
+    font-size: 24px;
+    background-color: #fde1ff;
+    color: green;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .offers_right img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+  }
+  
+  /* Add any additional styles as needed */
+  

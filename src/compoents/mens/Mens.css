@@ -1,0 +1,82 @@
+.banner {
+  width: 100%; /* Set the width of the banner to 100% */
+  height: 450px; /* Set the height of the banner to your desired value */
+  overflow: hidden; /* Hide any content that overflows the banner */
+  position: relative; /* Positioning context for absolute positioning */
+}
+
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto; 
+  
+  margin: auto; 
+}
+
+.slider-images {
+  display: flex;
+  transition: transform 0.5s ease;
+ 
+  
+ 
+}
+
+.slider-image {
+  flex: 0 0 33.33%; 
+}
+
+.slider-image img {
+  .slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300%;
+    object-fit: cover; 
+    
+    margin: auto;
+  }
+  
+  .slider-images {
+    display: flex;
+    transition: transform 0.5s ease;
+   
+    
+   
+  }
+  
+  .slider-image {
+    flex: 0 0 33.33%; 
+  }
+  
+  .slider-image img {
+    height: auto;
+    width: auto;
+   
+  }
+ 
+}
+.collection .mens-product {
+  background-color: black;
+  position: relative; 
+  display: inline-block;
+  color: green;
+  width: 100%; 
+  border-bottom: 1px solid green;
+}
+.back{
+  width: 50%;
+  height: 10%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+.banner {
+    background-color: black; 
+  }

@@ -1,0 +1,54 @@
+/* items.css */
+
+.item {
+    background-color: black;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .item img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .item p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .item .item_prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item .item_prices .new_price,
+  .item .item_prices .old_price {
+    font-size: 14px;
+  }
+  
+  .item .item_prices .new_price {
+    color: #4caf50; /* Green color for new price */
+  }
+  
+  .item .item_prices .old_price {
+    color: #757575; /* Gray color for old price */
+    text-decoration: line-through;
+  }
+  
+  .item .item_prices .currency {
+    font-size: 12px;
+    margin-right: 2px;
+  }
+  

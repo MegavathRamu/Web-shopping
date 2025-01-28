@@ -1,0 +1,35 @@
+.collection{
+  border-top: 1px solid green;
+  background-color: black;
+}
+
+.collection h1 {
+  font-size: 50px; 
+  color:green;
+  display: flex;
+}
+
+
+.colections_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: whitesmoke;
+}
+
+
+.newcollection {
+  flex: 0 0 calc(20% - 10px); /* Set width for each item to occupy 25% of the container width with some spacing */
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.newcollection img {
+  width: 110%; /* Make the image fill the container */
+  height: 80%; /* Maintain aspect ratio */
+  max-width: 200px; /* Set maximum width for better alignment */
+  border: 5px solid whitesmoke;
+ 
+}

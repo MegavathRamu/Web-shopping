@@ -1,0 +1,45 @@
+.containerrs {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Make the container full height of the viewport */
+    background-color: gray;
+  }
+  
+  .container form {
+    width: 80%; /* Adjust the form width as needed */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 30%; /* Adjust the width of the image column */
+  }
+  
+  .col-md-6 {
+    flex: 0 0 60%; /* Adjust the width of the profile info column */
+  }
+  
+  .profile_head {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile_head h5 {
+    margin-bottom: 10px;
+  }
+  
+  .profile_head p {
+    margin-bottom: 5px;
+  }
+  
+  img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 5px;
+  }
+  

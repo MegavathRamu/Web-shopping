@@ -1,0 +1,213 @@
+
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: relative;
+  height: 100vh;
+}
+
+.background-image {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1; 
+}
+
+.login_signup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white; 
+}
+
+.loginsignup_container {
+  text-align: center;
+  width: 70%;
+  height: 500px; /* Adjusted height */
+  margin: auto;
+  
+   /* Centering the container horizontally */
+}
+
+/* Style for the form title */
+.loginsignup_container h1 {
+  color: green; /* Changed color to green */
+}
+
+/* Style for the form fields */
+.login_fields input {
+  width: 100%;
+  justify-content: space-evenly;
+ 
+  body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .background-image {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+  }
+  
+  .login_signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white; 
+  }
+  
+  .loginsignup_container {
+    text-align: center;
+    width: 80%;
+    height: 200px; /* Adjusted height */
+    margin: auto; /* Centering the container horizontally */
+  }
+  
+  /* Style for the form title */
+  .loginsignup_container h1 {
+    color: gray; /* Changed color to green */
+  }
+  
+  /* Style for the form fields */
+  .login_fields input {
+   
+   
+    color: gray;
+    width: 100%;
+    height: auto;
+  padding: 10px;
+  margin-bottom: 10px; 
+  border-radius: 5px;
+  border: 1px solid gray;
+  justify-content: space-evenly;
+    
+   
+   
+  
+   
+  }
+  
+  /* Style for the login/signup button */
+  .login_signup button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color:gray;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the login/signup prompt */
+  .loginsinup_login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .loginsinup_login span {
+    color: green; /* Change color for the login link */
+    cursor: pointer;
+  }
+  
+  /* Style for the agreement checkbox */
+  .loginsignup_agree {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .loginsignup_agree input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Style for the agreement text */
+  .loginsignup_agree p {
+   color: green;
+   
+  }
+  .loginsignup_agree Link{
+    color: green;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .login_signup {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+  }
+  
+
+  border: green;
+  border: 1px solid #ccc;
+}
+
+/* Style for the login/signup button */
+.login_signup button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color:green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the login/signup prompt */
+.loginsinup_login {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.loginsinup_login span {
+  color: green; /* Change color for the login link */
+  cursor: pointer;
+}
+
+/* Style for the agreement checkbox */
+.loginsignup_agree {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.loginsignup_agree input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Style for the agreement text */
+.loginsignup_agree p {
+  color: green;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .login_signup {
+      width: 90%; /* Adjust width for smaller screens */
+  }
+}

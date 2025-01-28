@@ -1,0 +1,21 @@
+.breadcum {
+  display: flex;
+  color :white;
+ 
+  margin-left: 10%;
+
+  align-items: center;
+  margin-bottom: 20px; /* Add margin bottom to provide space */
+}
+
+.breadcum img {
+  margin-left: 10px; /* Add margin left to separate the arrow from the text */
+}
+.description {
+  text-align: center;
+  margin-right: auto; /* Shift the description to the left side */
+}
+
+
+
+  

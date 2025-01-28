@@ -1,0 +1,40 @@
+/* Newcollection.css */
+
+.newcollection {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .newcollection img {
+    width: 100%; /* Make the image fill the container */
+    height: 200%; /* Maintain aspect ratio */
+  }
+  
+  .newcollection p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .item_prices {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .items {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .new_price {
+    color: green; /* Set color for the new price */
+  }
+  
+  .oldprice {
+    text-decoration: line-through; /* Add strikethrough for the old price */
+    color: #888; /* Set color for the old price */
+  }
+  
+  /* Add any additional styles as needed */
+  

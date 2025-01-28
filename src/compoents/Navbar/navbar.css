@@ -1,0 +1,94 @@
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-top:5px solid green ;
+    border-bottom: 5px solid green;
+}
+
+.nav_logo p {
+    margin-left: 10px;
+}
+
+.nav_menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav_menu li {
+    margin-right: 20px;
+}
+
+.nav_menu li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.nav_menu li a.active {
+    color: white;
+}
+
+.nav_menu_logo {
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid green;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px; /* Adjust width as needed */
+    z-index: 1;
+    border: 1px solid gray;
+    color: white;
+}
+.dropdown-content img{
+    height: 10px;
+    width: 10px;
+    justify-content: space-evenly;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid gray;
+}
+
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #333;
+}
+
+.dropdown-content h5 {
+    color: white;
+    padding: 12px 16px;
+    margin: 0; /* Remove default margin */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    right: 0;
+    top: calc(100% + 5px); /* Position dropdown below the cart icon with 5px offset */
+}

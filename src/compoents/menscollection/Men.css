@@ -1,0 +1,60 @@
+/* MenCollection.css */
+
+.newcollection {
+  background-color:black;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 100px;
+  height: 300px;
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative; 
+}
+
+.newcollection:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.newcollection img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.newcollection p {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color:green;
+}
+
+.newcollection .item_prices {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed for vertical positioning */
+  left: 15px; /* Adjust as needed for horizontal positioning */
+  width: calc(100% - 30px); /* Ensure the prices are within the container width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newcollection .item_prices .new_price,
+.newcollection .item_prices .old_price {
+  font-size: 14px;
+}
+
+.newcollection .item_prices .new_price {
+  color: #4caf50; /* Green color for new price */
+}
+
+.newcollection .item_prices .old_price {
+  color: #757575; /* Gray color for old price */
+  text-decoration: line-through;
+}
+
+.newcollection .item_prices .currency {
+  font-size: 12px;
+  margin-right: 2px;
+}

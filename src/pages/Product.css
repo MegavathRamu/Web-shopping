@@ -1,0 +1,91 @@
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: black;
+
+  
+}
+.hello{
+  text-align: center;
+  
+}
+
+.product-details {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 100px; /* Adjust margin as needed */
+}
+
+
+.image-container {
+  flex: 1;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.product-info-container {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.big-image {
+  border-radius: 10px;
+  width: 400px; /* Adjust width as needed */
+  height: 500px;
+  border: 5px solid green;
+  margin-right: 300px;
+  padding: 5px;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.small-images-container {
+  display: flex;
+}
+
+.small-image {
+  width: 150px; /* Adjust width as needed */
+  height: auto;
+  margin-right: 10px;
+  border: 2px solid green;
+  padding: 2px;
+   /* Adjust margin as needed */
+}
+.product-info p {
+  margin-bottom: 50px; /* Add margin to create a gap between paragraphs */
+}
+.button-container {
+  margin-top: 50px; /* Add margin to create a gap between button and link */
+}
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.link-container {
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.link-container a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.link-container a:hover {
+  text-decoration: underline;
+}
