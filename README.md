@@ -29,19 +29,19 @@
 
 ---
 
-## 📸 Screenshots
+****screen shot website ****
 
-### 🖥️ Home Page
-![Home UI](images/home_ui.png)
+![Screenshot 2025-07-06 174733](https://github.com/user-attachments/assets/180c1a56-6963-4287-a75e-03bf8a4b2097)
 
-### 📦 Product Page with Filters
-![Filters](images/filters.png)
+![Screenshot 2025-07-06 174803](https://github.com/user-attachments/assets/28dbb635-f83d-47cc-945e-7e05fb373b90)
 
-### 🛒 Cart & Checkout
-![Cart](images/cart_checkout.png)
+![Screenshot 2025-07-06 174829](https://github.com/user-attachments/assets/64c52de4-08ca-4ad4-9257-f27abe5eff38)
 
-### 🛠️ Admin Dashboard
-![Admin Panel](images/admin_dashboard.png)
+![Screenshot 2025-07-06 175142](https://github.com/user-attachments/assets/94f396bc-5ec7-4ebf-a1ec-8097f3c920c5)
+
+
+
+
 
 ---
 
