@@ -1,6 +1,6 @@
 import React from 'react'
 import arrow from '../Asserts/arrow.png';
-import '../breadcum/Bread.css'
+import './Bread.css'
 
 
 const Breadcum = (props) => {
